@@ -1,6 +1,7 @@
 [workspace]
 members = [
     "client",
-    "server",
+    "stun-server",
+    "shared",
 ]
 resolver = "2"

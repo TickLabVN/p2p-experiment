@@ -8,3 +8,4 @@ name = "client"
 path = "src/main.rs"
 
 [dependencies]
+shared = { path = "../shared" }

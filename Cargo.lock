@@ -176,6 +176,17 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "989e6739f80c4ad5b13e0fd7fe89531180375b18520cc8c82080e4dc4035b84f"
 
 [[package]]
+name = "shared"
+version = "0.1.0"
+
+[[package]]
+name = "stun-server"
+version = "0.1.0"
+dependencies = [
+ "dotenv",
+]
+
+[[package]]
 name = "syn"
 version = "1.0.109"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -201,12 +212,8 @@ dependencies = [
 [[package]]
 name = "unchain-client"
 version = "0.1.0"
-
-[[package]]
-name = "unchain-server"
-version = "0.1.0"
 dependencies = [
- "dotenv",
+ "shared",
 ]
 
 [[package]]
